@@ -1,4 +1,3 @@
-import Server from './server';
-
+const Server = require('./server')
 
 new Server().start()

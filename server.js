@@ -1,5 +1,5 @@
-import express from 'express';
-
+// import express from 'express';
+const express = require('express')
 
 class Server{
     constructor(){
@@ -10,8 +10,13 @@ class Server{
         this.initServer()
         this.initRouter()
         this.listen()
+        this.initMiddleware()
     }
-
+ 
+    initMiddleware() {
+        this.server.use(express.json());
+    
+      }
     initServer(){
         this.server = express()
     }
