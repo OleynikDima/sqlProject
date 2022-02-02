@@ -15,8 +15,8 @@ class Server{
  
     initMiddleware() {
         this.server.use(express.json());
+        console.log('this init Middle');
       }
-
 
     initServer(){
         this.server = express()
