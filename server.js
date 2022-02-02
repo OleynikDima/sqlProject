@@ -7,6 +7,8 @@ class Server{
     }
 
      start(){
+        console.log('this init start');
+
         this.initServer()
         this.initRouter()
         this.listen()
