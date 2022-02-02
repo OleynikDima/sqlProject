@@ -15,15 +15,16 @@ class Server{
  
     initMiddleware() {
         this.server.use(express.json());
-    
       }
+
+
     initServer(){
         this.server = express()
     }
 
     initRouter(){
-        this.server.route('./',(req,res)=>{
-            return 'Hello'
+        this.server.get('/',(req,res)=>{
+            return res.send('Hello')
         })
     }
      
