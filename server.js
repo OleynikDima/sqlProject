@@ -20,6 +20,7 @@ class Server{
 
     initServer(){
         this.server = express()
+        
     }
 
     initRouter(){
