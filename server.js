@@ -25,6 +25,7 @@ class Server{
 
     initRouter(){
         this.server.get('/',(req,res)=>{
+        console.log('this init requre');
             return res.send('Hello')
         })
     }
