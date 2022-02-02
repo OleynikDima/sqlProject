@@ -2,5 +2,24 @@
   "dependencies": {
     "express": "^4.17.2",
     "nodemon": "^2.0.15"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "sqlproject",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleynikDima/sqlProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleynikDima/sqlProject/issues"
+  },
+  "homepage": "https://github.com/OleynikDima/sqlProject#readme"
 }
